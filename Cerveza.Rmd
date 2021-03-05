@@ -1,0 +1,81 @@
+---
+title: "Caso de la Cerveza en Bolivia"
+author: "Daniel Laguna"
+date: "4/3/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Encabezado con logotipo de la universidad
+
+## Universidad Católica Boliviana "San Pablo"
+
+![La Paz, Bolivia](logoucb.png)
+
+## Caso de la Cerveza en Bolivia-El problema de los inventarios
+
+blablabla justificación
+
+# Fotografía pequeña de los integrantes del grupo y sus correos electrónicos
+
+## Equipo de trabajo
+
+Daniel Laguna ![dantonylagu@gmail.com](Fotodani.jpg)
+
+
+
+# Situación problema que tratarás en el trabajo
+
+blablabla mas detallado
+
+# Identificación de al menos 3 artículos científicos y un libro en el que puedas encontrar soluciones propuestas a la situación problema
+
+UNo de los modelos matematicos que se encotro,fue propuesto por xx y es parte de del paquete fpp que se puede instalar en R. La formualción matematica del modelo es
+
+et = yt − yˆt|N , for t = N + 1,..., T .
+
+
+$$ e_t = y_t - y^{t|\delta}, \forall t \in [1,...,T]$$
+
+# Disponer de un dataset (puede ser datos de excel) sobre la situación problema (Si no dispones de datos puedes buscarlos en sitios como Kaggle
+
+Hemos bajado el dataset que esta en el sitio web https://www.kaggle.com/devvindan/beer-consumption-in-20182019?select=drink_dataset_money.csv
+
+library(readr)
+cerveza1 <-read_csv("F:/trabajofinalrstudio/drink_dataset_money.csv")
+# Hacer un análisis exploratorio de los datos
+
+# Establecer si existe correlación entre las columnas del dataset
+
+# Hacer un gráfico de matriz de covarianza
+
+# Estudiar el histograma , el gráfico de densidad y los cuantiles de la variable que más impacta sobre el problema.
+
+# Citar las referencias bibliográficas
+
+# Publicar en GitHub
+
+# Publicar en la entrega del moodle el link a la pagina que creaste
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
